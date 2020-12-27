@@ -1,16 +1,17 @@
 body{
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 #pic{
-    width: 175px;
+    width: 500px;
     margin-bottom: 50px;
     border-radius: 80%;
 }
 #myhobby{
     position: absolute;
-    overflow: hidden;
     height: 800px;
+    overflow: hidden;
     color: #ffffff;
     left: 0;
     right: 0;
@@ -20,7 +21,8 @@ body{
     background: linear-gradient(#0e00ff 25%, #096079 50%, #03c0ce 75%, #00ff9d 100%);
     display: table;
     width: 100%;
-    height: 100%;
+    height: 800px;
+    z-index: 9;
 }
 .sec1{
     display: table-cell;
@@ -28,3 +30,125 @@ body{
     text-align: center;
     vertical-align: middle;
 }
+p{
+font-size: 25px;
+   font-family: 'Dancing Script', cursive;;
+    text-align: center;
+}
+.menu{
+    list-style: none;
+   font-family: 'Dancing Script', cursive;;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: 700;
+}
+.links:hover{
+    background-color: darkorange;
+}
+.line{
+ height: 10;
+    width: 80;
+    background-color: black;
+    margin: 8px auto;
+}
+#apps{
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+}
+
+#games{
+    width: 100%;
+    height: 800px;
+    background-color:  fuchsia;
+}
+img{
+    height: 500px;
+    width: 400px;
+    margin-top: 70;
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.head{
+    font-size: 30px;
+    margin-top: 0px;
+}
+#chatbot{
+   width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+}
+#chat{
+    margin-top: 50px;
+}
+p{
+color: black;
+font-size: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
